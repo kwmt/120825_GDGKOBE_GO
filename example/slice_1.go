@@ -22,16 +22,16 @@ func main() {
 	/*----- 以下参考 -----*/
 	if i == a[0] {
 		fmt.Println("i == a[0]")
-	}else {
+	} else {
 		fmt.Println("i != a[0]")
 	}
 
 	/* デモ */
-	for j:=0; j<len(a); j++ {
+	for j := 0; j < len(a); j++ {
 		if a[j] == 0 {
-			fmt.Printf("a[%d] == %d\n",j, a[j])
-		}else {
-			fmt.Printf("a[%d] != %d\n",j, a[j])
+			fmt.Printf("a[%d] == %d\n", j, a[j])
+		} else {
+			fmt.Printf("a[%d] != %d\n", j, a[j])
 		}
 	}
 	var p *int = &a[3]
@@ -39,8 +39,7 @@ func main() {
 
 	/* デモ */
 	//b := [2]string{"Penn","Teller"}
-	b := [...]string{"Penn","Teller"}
+	b := [...]string{"Penn", "Teller"}
 	fmt.Println(len(b))
 
-	
 }

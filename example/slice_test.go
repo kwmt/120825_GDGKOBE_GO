@@ -5,12 +5,12 @@ import (
 )
 
 type SliceTest struct {
-	in string
+	in  string
 	out []byte
 }
 
-var b=[]byte{'1'}
-var SliceTests = []SliceTest {
+var b = []byte{'1'}
+var SliceTests = []SliceTest{
 	SliceTest{"TestFinDigits.txt", b},
 }
 
